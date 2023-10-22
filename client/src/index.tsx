@@ -6,6 +6,10 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('License Key');
+
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
